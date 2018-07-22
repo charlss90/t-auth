@@ -1,0 +1,4 @@
+--require ./test/init
+--require should
+--reporter dot
+--ui bdd
