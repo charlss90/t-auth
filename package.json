@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --require ./test/init './**/*.spec.js'"
   },
   "author": "",
   "license": "ISC",
@@ -12,16 +12,22 @@
     "@types/chai": "^4.1.4",
     "@types/chai-http": "^3.0.5",
     "@types/mocha": "^5.2.5",
+    "@types/restify": "^7.2.3",
     "@types/sinon": "^5.0.1",
     "chai": "^4.1.2",
     "chai-http": "^4.0.0",
     "eslint": "^5.2.0",
+    "eslint-config-prettier": "^2.9.0",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.1.0",
     "mocha": "^5.2.0",
     "sinon": "^6.1.4"
+  },
+  "dependencies": {
+    "restify": "^7.2.1"
   }
 }
